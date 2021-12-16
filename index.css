@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap{
+    font-family: 'Comfortaa', cursive;
+}
+
+.head{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("https://art-nto.ru/800/600/https/freehtmlthemes.ru/assets/images/articles/css-fon.jpg");
+    background-repeat: no-repeat;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+.nav{
+    display: flex;
+    margin-right: 4%;
+    list-style: none;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.nav li a:hover{
+    color: yellow;
+}
+
+.logoHeader{
+    margin-left: 4%;
+    border-radius: 10px;
+    background: #fcfcbf;
+}
+
+.main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    background-image: url("https://art-nto.ru/800/600/https/freehtmlthemes.ru/assets/images/articles/css-fon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainText{
+    font-size: 23px;
+    line-height: 35px;
+}
+
+.mainText p{
+    font-size: 40px;
+    padding: 60px 0 30px 0;
+
+}
+
+.mainImg img{
+    width: 600px;
+}
+
+.buttonMain{
+    font-size: 25px;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 200px;
+    height: 65px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.buttonMain a{
+    text-decoration: none;
+    color: black;
+}
+
+.buttonMain a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.buttonMain:hover{
+    background: #fcfcbf;
+    color: black;
+}
+
+.yak{
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+
+.yakMain{
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+
+.yakCom{
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+
+.secondPg{
+    background: #fcfcbf;
+    min-height: 100vh;
+}
+
+.secCont{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.firstObj{
+    text-align: center;
+    width: 400px;
+}
+
+.secondObj{
+    text-align: center;
+    width: 400px;
+}
+
+.thirdObj{
+    text-align: center;
+    width: 400px;
+}
+
+.fourthObj{
+    text-align: center;
+    width: 400px;
+}
+
+.secondPg img{
+    width: 300px;
+}
+
+.secondPg p{
+    padding: 40px 0 40px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.aboutCom{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+.comText{
+    width: 500px;
+    font-size:18px;
+}
+
+.comText::first-line{
+    font-size: 40px;
+}
+
+.comImg{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: start;
+}
+
+.foot{
+    background: #fcfcbf;
+}
+
+.textFoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.foot p{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
